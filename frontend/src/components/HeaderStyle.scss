@@ -1,0 +1,12 @@
+@import "../assets/variables";
+
+header {
+    color: $font-color;
+    background-color: #f7ede2;
+
+    h1 {
+        margin: 0;
+        text-align: center;
+        padding: $basic-space 0;
+    }
+}

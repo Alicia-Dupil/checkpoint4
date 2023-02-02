@@ -1,0 +1,27 @@
+@import "../assets/variables";
+
+.card {
+background-color: $primary-color;
+display: flex;
+justify-content: center;
+margin: 1rem;
+border-radius: 24px;
+
+.card-personalize {
+    display: flex;
+    margin: $basic-space;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    .picture-size {
+        max-block-size: fit-content(20em);
+        margin: 1rem;
+    }
+
+    .card-header {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+  }
+}

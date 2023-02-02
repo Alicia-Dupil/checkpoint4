@@ -1,0 +1,24 @@
+// we import the font and make it color variables
+
+  $font-color: #432818;
+  
+  $font-size: 1rem;
+  $title-size: 1.25rem;
+  $title-bigger-size: 1.5rem;
+  
+  // brand colors variables for buttons 
+  $add-new-card: #F5CAC3;
+  $modify-card: #F6BD60;
+  $delete-card: #F28482;
+  
+  // background color and text color on buttons using brand-color as background
+  $primary-color: #F7EDE2;
+  $secondary-color: #84A59D;
+ 
+  // border radius
+  $border-radius: 15px;
+  
+  // margin and padding
+  $basic-space: 1rem;
+  
+  $half-space: calc($basic-space / 2);
