@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS card;
 
 CREATE TABLE card (
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
-picture VARCHAR(250) NOT NULL DEFAULT 'avatarTemoin.png',
+picture VARCHAR(250) NOT NULL DEFAULT 'polaroid.png',
 date DATE NULL, 
 description VARCHAR(250) NOT NULL,
 link VARCHAR(250) NULL);

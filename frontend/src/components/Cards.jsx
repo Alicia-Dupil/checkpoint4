@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import instance from "../utils/instance";
 import CardTravel from "./CardTravel";
 
@@ -21,7 +22,7 @@ function Cards() {
   return (
     <section>
       <div className="addNew">
-        <button type="button">Add New Card</button>
+        <Link to="/add_card">Add New Card</Link>
       </div>
       <div className="travel-cards">
         <div className="cards">

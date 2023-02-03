@@ -2,4 +2,24 @@
 
 section {
     background-color: $secondary-color;
+
+    .addNew{
+        display: flex;
+        justify-content: end;
+    
+    a {
+        width: fit-content;
+        text-decoration: none;
+        color: $font-color;
+        background-color: $add-new-card;
+        border-radius: $border-radius;
+        padding: 1rem 2rem;
+        margin: 1rem 1rem;
+    }
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }

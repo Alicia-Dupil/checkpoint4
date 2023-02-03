@@ -1,11 +1,15 @@
 @import "../assets/variables";
 
 .card {
+max-height: 30rem;
+max-width: 80%;
 background-color: $primary-color;
-display: flex;
-justify-content: center;
 margin: 1rem;
 border-radius: 24px;
+
+.card-management {
+display: flex;
+}
 
 .card-personalize {
     display: flex;
