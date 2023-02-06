@@ -1,14 +1,37 @@
 @import "../assets/variables";
 
 .card {
-max-height: 30rem;
-max-width: 80%;
+max-height: auto;
+min-width: 1024px;
+max-width: 1024px;
 background-color: $primary-color;
 margin: 1rem;
 border-radius: 24px;
 
 .card-management {
 display: flex;
+flex-direction: row-reverse;
+padding-top: 1rem;
+padding-right: 1rem;
+
+.supp-button {
+    width: 2rem;
+    height: 2rem;
+    background-color: $delete-card;
+    border: none;
+    border-radius: 15px;
+    margin-left: 0.4rem;
+    cursor: pointer;
+}
+
+.modif-button {
+    width: 2rem;
+    height: 2rem;
+    background-color: $modify-card;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
 }
 
 .card-personalize {
@@ -18,7 +41,8 @@ display: flex;
     justify-content: space-evenly;
     
     .picture-size {
-        max-block-size: fit-content(20em);
+        max-width: 1080px;
+        max-height: 1350px;
         margin: 1rem;
     }
 
@@ -26,6 +50,16 @@ display: flex;
         width: 100%;
         height: auto;
         border-radius: 12px;
+    }
+
+    a {
+        color: $font-color;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $delete-card;
+        text-decoration: none;
     }
   }
 }

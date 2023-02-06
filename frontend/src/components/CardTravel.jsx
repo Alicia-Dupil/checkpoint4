@@ -26,10 +26,16 @@ function CardTravel({ id }) {
   return (
     <div className="card">
       <div className="card-management">
-        <button type="button" onClick={handleDeleteClick}>
-          Supprimer
+        <button
+          className="supp-button"
+          type="button"
+          onClick={handleDeleteClick}
+        >
+          {" "}
         </button>
-        <button type="button">Modifier</button>
+        {/* <button className="modif-button" type="button">
+          {" "}
+        </button> */}
       </div>
       <div className="card-personalize">
         <div className="picture-size">
@@ -38,7 +44,9 @@ function CardTravel({ id }) {
         <div className="card-body">
           <p className="card-date">{cards.date}</p>
           <p className="card-description">{cards.description}</p>
-          <p className="card-link">{cards.link}</p>
+          <a href={cards.link} target="_blank" rel="noreferrer">
+            Voir le lieu
+          </a>
         </div>
       </div>
     </div>

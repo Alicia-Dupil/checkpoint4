@@ -22,7 +22,7 @@ function Cards() {
   return (
     <section>
       <div className="addNew">
-        <Link to="/add_card">Add New Card</Link>
+        <Link to="/add_card">+</Link>
       </div>
       <div className="travel-cards">
         <div className="cards">

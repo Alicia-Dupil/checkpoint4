@@ -8,12 +8,16 @@ section {
         justify-content: end;
     
     a {
-        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
         text-decoration: none;
         color: $font-color;
+        font-size: 1.6rem;
         background-color: $add-new-card;
-        border-radius: $border-radius;
-        padding: 1rem 2rem;
+        border-radius: 2rem;
         margin: 1rem 1rem;
     }
 }

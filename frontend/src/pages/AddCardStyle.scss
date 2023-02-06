@@ -1,0 +1,58 @@
+@import "../assets/variables";
+
+h2 {
+    margin: 0;
+    color: $font-color;
+    padding: 1.5rem 0 0 2rem;
+    border-bottom: solid $font-color;
+    width: fit-content;
+    font-size: 2rem;
+}
+
+.addCard {
+    background-color: $add-new-card;
+    min-height: 750px;
+
+    .return {
+        display: flex;
+        justify-content: end;
+    
+    a {
+        color: $font-color;
+        text-decoration: none;
+        margin-right: 2rem;
+        width: fit-content;
+        background-color: $primary-color;
+        padding: 1rem;
+        border-radius: $border-radius;
+}
+}
+.box-form {
+    display: flex;
+    justify-content: space-between;
+
+.addCard-form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 5rem;
+
+    label {
+        color: $font-color;
+        padding: 1rem 0;
+        font-size: 1.3rem;
+    }
+
+    .add-card {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        background-color: $primary-color;
+        border: none;
+        color: $font-color;
+        padding: 1rem;
+        border-radius: $border-radius;
+    }
+}
+}
+}
